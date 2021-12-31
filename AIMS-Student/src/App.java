@@ -19,7 +19,6 @@ public class App extends Application {
 	@Override
 	public void start(Stage primaryStage) {
 		try {
-
 			// initialize the scene
 			StackPane root = (StackPane) FXMLLoader.load(getClass().getResource(Configs.SPLASH_SCREEN_PATH));
 			Scene scene = new Scene(root);
